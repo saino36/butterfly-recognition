@@ -1,10 +1,7 @@
 """
-04_model_definition.py
-----------------------
-Stage 4: AlexNet Architecture Definition
-
-This script defines the AlexNet CNN architecture
-adapted for butterfly species classification.
+Tahap 4: AlexNet Architecture Definition
+------------------
+Mendefinisikan arsitektur AlexNet CNN yang diadaptasi untuk klasifikasi spesies kupu-kupu.
 """
 
 import tensorflow as tf
@@ -67,3 +64,4 @@ def build_alexnet(input_shape=INPUT_SHAPE, num_classes=NUM_CLASSES):
 if __name__ == "__main__":
     alexnet_model = build_alexnet()
     alexnet_model.summary()
+
