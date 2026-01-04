@@ -16,7 +16,7 @@ import pandas as pd
 # ==============================
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATASET_DIR = os.path.join(PROJECT_ROOT, "dataset", "raw", "Train")
-MODEL_PATH = os.path.join(PROJECT_ROOT, "results", "alexnet", "alexnet_best_model.keras")
+MODEL_PATH = os.path.join(PROJECT_ROOT, "results", "alexnet", "alexnet_best_model.h5")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "results", "alexnet")
 
 IMG_SIZE = (224, 224)
@@ -81,3 +81,4 @@ np.save(conf_matrix_path, conf_matrix)
 print("\nEvaluation completed.")
 print("Classification report saved to:", report_path)
 print("Confusion matrix saved to:", conf_matrix_path)
+
