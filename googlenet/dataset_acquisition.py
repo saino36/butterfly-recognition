@@ -1,11 +1,6 @@
 """
-01_dataset_acquisition.py
--------------------------
-Stage 1: Dataset Acquisition
+Tahap 1: Dataset Acquisition
 Dataset: Butterfly Classification Dataset (Kaggle)
-
-This script downloads the dataset using kagglehub
-and stores it in a structured directory for further processing.
 """
 
 import os
@@ -58,3 +53,4 @@ print("\nDataset Summary")
 print("----------------------")
 print("Total Classes:", len(class_folders))
 print("Sample Classes:", class_folders[:5])
+
