@@ -1,11 +1,9 @@
 """
-07_prediction_visualization.py
-------------------------------
-Stage 7: Prediction Visualization (GoogLeNet)
+Tahap 7: Prediction Visualization (GoogLeNet)
 """
 
 # ==============================
-# Fix Python Path
+# Python Path
 # ==============================
 import os
 import sys
@@ -85,3 +83,4 @@ for i in range(NUM_SAMPLES):
 
 plt.tight_layout()
 plt.show()
+
