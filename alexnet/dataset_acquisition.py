@@ -1,5 +1,6 @@
 """
 Tahap 1: Dataset Acquisition
+---------------
 Dataset: Butterfly Classification Dataset (Kaggle)
 """
 
@@ -53,4 +54,5 @@ print("\nDataset Summary")
 print("----------------------")
 print("Total Classes:", len(class_folders))
 print("Sample Classes:", class_folders[:5])
+
 
