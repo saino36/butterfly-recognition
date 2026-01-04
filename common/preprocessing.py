@@ -1,6 +1,7 @@
 """
-common/preprocessing.py
-Shared preprocessing for all models
+preprocessing.py
+---------------
+Preprocessing untuk semua model
 """
 
 import os
@@ -46,3 +47,4 @@ validation_generator = val_datagen.flow_from_directory(
     subset="validation",
     seed=SEED
 )
+
