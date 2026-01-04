@@ -1,14 +1,10 @@
 """
-02_dataset_validation.py
-------------------------
-Stage 2: Dataset Validation & Exploration
-
-This script validates the butterfly dataset by analyzing:
+Tahap 2: Dataset Validation & Exploration
+--------------
+Script ini memvalidasi butterfly dataset dengan menganalisis:
 - Number of classes
 - Number of images per class
 - Dataset balance statistics
-
-Outputs are saved for journal documentation.
 """
 
 import os
@@ -83,3 +79,4 @@ if not imbalanced_classes.empty:
     print(imbalanced_classes.head())
 else:
     print("\nNo significant class imbalance detected.")
+
