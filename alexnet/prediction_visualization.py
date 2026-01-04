@@ -1,7 +1,5 @@
 """
-07_prediction_visualization.py
-------------------------------
-Stage 7: Prediction Visualization (AlexNet)
+Tahap 7: Prediction Visualization (AlexNet)
 """
 
 import os
@@ -75,4 +73,5 @@ for i in range(NUM_SAMPLES):
 
 plt.tight_layout()
 plt.show()
+
 
